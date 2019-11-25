@@ -1,0 +1,293 @@
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  .resume-item {
+    .resume-content {}
+    .resume-date {
+      min-width: none;
+    }
+  }
+}
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    .resume-item {
+      .resume-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 0rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+#experience {
+  width: 90% !important;
+  display: flex;
+  flex-direction: column;
+
+  > .w-100 {
+    margin-top: 2rem;
+
+    .mb-0 {
+      font-family: 'Major Mono Display', monospace;
+      font-size: 4rem;
+    }
+    div#tta-1 {
+      font-family: 'Inconsolata', monospace !important;
+      margin-bottom: 15px !important;
+    }
+    .mb-5 {
+      font-family: 'Major Mono Display', monospace;
+      color: $tertiary;
+      font-size: 3rem;
+    }
+    .resume-item {
+      .resume-content {
+        .mb-0 {
+          font-size: 2rem !important;
+          font-family: 'Major Mono Display', monospace !important;
+        }
+        .subheading {
+          font-family: 'Inconsolata', monospace !important;
+          color: $subheading;
+        }
+        p {
+          color: $secondary;
+          font-family: 'Inconsolata', monospace !important;
+          font-weight: lighter;
+          font-size: 1rem;
+        }
+      }
+      .resume-date {
+        display: flex;
+        flex-direction: column;
+
+        .text-primary {
+          font-family: 'Inconsolata', monospace !important;
+          font-size: 1.125rem;
+          font-style: italic;
+          filter: brightness(1.125);
+        }
+      }
+    }
+  }
+  .synopsis-container {
+    display: flex;
+    margin-bottom: 30px;
+
+    #tta-2a {
+      padding-right: 15px;
+      font-family: 'Inconsolata', monospace !important;
+    }
+    #tta-2 {
+      font-family: 'Inconsolata', monospace !important;
+    }
+  }
+}
+
+
+#about > .w-100 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 75% !important;
+
+  .mb-0 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 4rem;
+  }
+  div#tta-1 {
+    font-family: 'Inconsolata', monospace !important;
+    margin-bottom: 15px !important;
+  }
+  .mb-5 {
+    font-family: 'Major Mono Display', monospace;
+  }
+  >div.resume-item {
+    .resume-content {
+      .subheading {
+        font-family: 'Inconsolata', monospace !important;
+
+      }
+    }
+
+  }
+  .synopsis-container {
+    display: flex;
+    margin-bottom: 30px;
+
+    #tta-2a {
+      padding-right: 15px;
+      font-family: 'Inconsolata', monospace !important;
+    }
+    #tta-2 {
+      font-family: 'Inconsolata', monospace !important;
+    }
+  }
+}
+
+#education {
+  width: 90% !important;
+  display: flex;
+  flex-direction: column;
+
+  > .w-100 {
+    margin-top: 2rem;
+
+    .mb-0 {
+      font-family: 'Major Mono Display', monospace;
+      font-size: 4rem;
+    }
+    div#tta-1 {
+      font-family: 'Inconsolata', monospace !important;
+      margin-bottom: 15px !important;
+    }
+    .mb-5 {
+      font-family: 'Major Mono Display', monospace;
+      color: $tertiary;
+      font-size: 3rem;
+    }
+    .resume-item {
+      .resume-content {
+        .mb-0 {
+          font-size: 1.75rem !important;
+          font-family: 'Major Mono Display', monospace !important;
+        }
+        .subheading {
+          font-size: 1.25rem;
+          font-family: 'Inconsolata', monospace !important;
+          color: $secondary;
+          margin-bottom: 10px !important;
+        }
+        .education-subheading {
+          font-size: 1rem;
+          font-family: 'Inconsolata', monospace !important;
+          color: $subheading;
+          padding-left: 10px;
+        }
+        p {
+          color: $secondary;
+          font-family: 'Inconsolata', monospace !important;
+          font-weight: lighter;
+          font-size: 1rem;
+        }
+      }
+      .resume-date {
+        display: flex;
+        flex-direction: column;
+
+        .text-primary {
+          font-family: 'Inconsolata', monospace !important;
+          font-size: 1.125rem;
+          font-style: italic;
+          filter: brightness(1.125);
+        }
+      }
+    }
+  }
+  .synopsis-container {
+    display: flex;
+    margin-bottom: 30px;
+
+    #tta-2a {
+      padding-right: 15px;
+      font-family: 'Inconsolata', monospace !important;
+    }
+    #tta-2 {
+      font-family: 'Inconsolata', monospace !important;
+    }
+  }
+}
+
+#skills {
+  width: 90% !important;
+  display: flex;
+  flex-direction: column;
+
+  ul.fa-ul {
+    margin-left: 45px;
+    li {
+      font-family: 'Inconsolata', monospace !important;
+      font-size: 1.125rem;
+      i {
+        padding-right: 30px;
+      }
+    }
+  }
+
+  > .w-100 {
+    margin-top: 2rem;
+
+    .mb-0 {
+      font-family: 'Major Mono Display', monospace;
+      font-size: 4rem;
+    }
+    div#tta-1 {
+      font-family: 'Inconsolata', monospace !important;
+      margin-bottom: 15px !important;
+    }
+    .mb-5 {
+      font-family: 'Major Mono Display', monospace;
+      color: $tertiary;
+      font-size: 3rem;
+    }
+    .subheading {
+      text-transform: none;
+      font-family: 'Major Mono Display', monospace !important;
+      color: $secondary;
+      margin-bottom: 10px !important;
+    }
+    .resume-item {
+      .resume-content {
+        .mb-0 {
+          font-size: 1.75rem !important;
+          font-family: 'Major Mono Display', monospace !important;
+        }
+        .education-subheading {
+          font-size: 1rem;
+          font-family: 'Inconsolata', monospace !important;
+          color: $subheading;
+          padding-left: 10px;
+        }
+        p {
+          color: $secondary;
+          font-family: 'Inconsolata', monospace !important;
+          font-weight: lighter;
+          font-size: 1rem;
+        }
+      }
+      .resume-date {
+        display: flex;
+        flex-direction: column;
+
+        .text-primary {
+          font-family: 'Inconsolata', monospace !important;
+          font-size: 1.125rem;
+          font-style: italic;
+          filter: brightness(1.125);
+        }
+      }
+    }
+  }
+  .synopsis-container {
+    display: flex;
+    margin-bottom: 30px;
+
+    #tta-2a {
+      padding-right: 15px;
+      font-family: 'Inconsolata', monospace !important;
+    }
+    #tta-2 {
+      font-family: 'Inconsolata', monospace !important;
+    }
+  }
+}
+
+#sideNav .navbar-brand {
+  margin: 30px auto 0;
+}
