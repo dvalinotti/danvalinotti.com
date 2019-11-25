@@ -230,103 +230,121 @@ section.resume-section .resume-item .resume-date {
   font-family: 'Inconsolata', monospace !important;
 }
 
-#about > .w-100 {
+#about {
+  display: flex !important;
+  flex-direction: column;
+}
+
+#about .w-100 {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-left: -14rem;
   width: 75% !important;
 }
 
-#about > .w-100 .mb-0 {
+#about .w-100 .toc-container {
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+  text-decoration: none;
+}
+
+#about .w-100 .toc-container .js-scroll-trigger {
+  color: #afafaf;
+  font-family: 'Inconsolata', monospace !important;
+  font-size: 1rem;
+}
+
+#about .w-100 .mb-0 {
   font-family: 'Major Mono Display', monospace;
   font-size: 4rem;
 }
 
-#about > .w-100 div#tta-1 {
+#about .w-100 div#tta-1 {
   font-family: 'Inconsolata', monospace !important;
   margin-bottom: 15px !important;
 }
 
-#about > .w-100 .mb-5 {
+#about .w-100 .mb-5 {
   font-family: 'Major Mono Display', monospace;
 }
 
-#about > .w-100 > div.resume-item .resume-content .subheading {
+#about .w-100 > div.resume-item .resume-content .subheading {
   font-family: 'Inconsolata', monospace !important;
 }
 
-#about > .w-100 .synopsis-container {
+#about .w-100 .synopsis-container {
   display: flex;
   margin-bottom: 30px;
 }
 
-#about > .w-100 .synopsis-container #tta-2a {
+#about .w-100 .synopsis-container #tta-2a {
   padding-right: 15px;
   font-family: 'Inconsolata', monospace !important;
 }
 
-#about > .w-100 .synopsis-container #tta-2 {
+#about .w-100 .synopsis-container #tta-2 {
   font-family: 'Inconsolata', monospace !important;
 }
 
-#education {
+#about #education {
   width: 90% !important;
   display: flex;
   flex-direction: column;
 }
 
-#education > .w-100 {
+#about #education > .w-100 {
   margin-top: 2rem;
 }
 
-#education > .w-100 .mb-0 {
+#about #education > .w-100 .mb-0 {
   font-family: 'Major Mono Display', monospace;
   font-size: 4rem;
 }
 
-#education > .w-100 div#tta-1 {
+#about #education > .w-100 div#tta-1 {
   font-family: 'Inconsolata', monospace !important;
   margin-bottom: 15px !important;
 }
 
-#education > .w-100 .mb-5 {
+#about #education > .w-100 .mb-5 {
   font-family: 'Major Mono Display', monospace;
   color: #afafaf;
   font-size: 3rem;
 }
 
-#education > .w-100 .resume-item .resume-content .mb-0 {
+#about #education > .w-100 .resume-item .resume-content .mb-0 {
   font-size: 1.75rem !important;
   font-family: 'Major Mono Display', monospace !important;
 }
 
-#education > .w-100 .resume-item .resume-content .subheading {
+#about #education > .w-100 .resume-item .resume-content .subheading {
   font-size: 1.25rem;
   font-family: 'Inconsolata', monospace !important;
   color: #d6d6d6;
   margin-bottom: 10px !important;
 }
 
-#education > .w-100 .resume-item .resume-content .education-subheading {
+#about #education > .w-100 .resume-item .resume-content .education-subheading {
   font-size: 1rem;
   font-family: 'Inconsolata', monospace !important;
   color: #969696;
   padding-left: 10px;
 }
 
-#education > .w-100 .resume-item .resume-content p {
+#about #education > .w-100 .resume-item .resume-content p {
   color: #d6d6d6;
   font-family: 'Inconsolata', monospace !important;
   font-weight: lighter;
   font-size: 1rem;
 }
 
-#education > .w-100 .resume-item .resume-date {
+#about #education > .w-100 .resume-item .resume-date {
   display: flex;
   flex-direction: column;
 }
 
-#education > .w-100 .resume-item .resume-date .text-primary {
+#about #education > .w-100 .resume-item .resume-date .text-primary {
   font-family: 'Inconsolata', monospace !important;
   font-size: 1.125rem;
   font-style: italic;
@@ -334,91 +352,91 @@ section.resume-section .resume-item .resume-date {
   filter: brightness(1.125);
 }
 
-#education .synopsis-container {
+#about #education .synopsis-container {
   display: flex;
   margin-bottom: 30px;
 }
 
-#education .synopsis-container #tta-2a {
+#about #education .synopsis-container #tta-2a {
   padding-right: 15px;
   font-family: 'Inconsolata', monospace !important;
 }
 
-#education .synopsis-container #tta-2 {
+#about #education .synopsis-container #tta-2 {
   font-family: 'Inconsolata', monospace !important;
 }
 
-#skills {
+#about #skills {
   width: 90% !important;
   display: flex;
   flex-direction: column;
 }
 
-#skills ul.fa-ul {
+#about #skills ul.fa-ul {
   margin-left: 45px;
 }
 
-#skills ul.fa-ul li {
+#about #skills ul.fa-ul li {
   font-family: 'Inconsolata', monospace !important;
   font-size: 1.125rem;
 }
 
-#skills ul.fa-ul li i {
+#about #skills ul.fa-ul li i {
   padding-right: 30px;
 }
 
-#skills > .w-100 {
+#about #skills > .w-100 {
   margin-top: 2rem;
 }
 
-#skills > .w-100 .mb-0 {
+#about #skills > .w-100 .mb-0 {
   font-family: 'Major Mono Display', monospace;
   font-size: 4rem;
 }
 
-#skills > .w-100 div#tta-1 {
+#about #skills > .w-100 div#tta-1 {
   font-family: 'Inconsolata', monospace !important;
   margin-bottom: 15px !important;
 }
 
-#skills > .w-100 .mb-5 {
+#about #skills > .w-100 .mb-5 {
   font-family: 'Major Mono Display', monospace;
   color: #afafaf;
   font-size: 3rem;
 }
 
-#skills > .w-100 .subheading {
+#about #skills > .w-100 .subheading {
   text-transform: none;
   font-family: 'Major Mono Display', monospace !important;
   color: #d6d6d6;
   margin-bottom: 10px !important;
 }
 
-#skills > .w-100 .resume-item .resume-content .mb-0 {
+#about #skills > .w-100 .resume-item .resume-content .mb-0 {
   font-size: 1.75rem !important;
   font-family: 'Major Mono Display', monospace !important;
 }
 
-#skills > .w-100 .resume-item .resume-content .education-subheading {
+#about #skills > .w-100 .resume-item .resume-content .education-subheading {
   font-size: 1rem;
   font-family: 'Inconsolata', monospace !important;
   color: #969696;
   padding-left: 10px;
 }
 
-#skills > .w-100 .resume-item .resume-content p {
+#about #skills > .w-100 .resume-item .resume-content p {
   color: #d6d6d6;
   font-family: 'Inconsolata', monospace !important;
   font-weight: lighter;
   font-size: 1rem;
 }
 
-#skills > .w-100 .resume-item .resume-date {
+#about #skills > .w-100 .resume-item .resume-date {
   display: flex;
   flex-direction: column;
 }
 
-#skills > .w-100 .resume-item .resume-date .text-primary {
+#about #skills > .w-100 .resume-item .resume-date .text-primary {
   font-family: 'Inconsolata', monospace !important;
   font-size: 1.125rem;
   font-style: italic;
@@ -426,21 +444,21 @@ section.resume-section .resume-item .resume-date {
   filter: brightness(1.125);
 }
 
-#skills .synopsis-container {
+#about #skills .synopsis-container {
   display: flex;
   margin-bottom: 30px;
 }
 
-#skills .synopsis-container #tta-2a {
+#about #skills .synopsis-container #tta-2a {
   padding-right: 15px;
   font-family: 'Inconsolata', monospace !important;
 }
 
-#skills .synopsis-container #tta-2 {
+#about #skills .synopsis-container #tta-2 {
   font-family: 'Inconsolata', monospace !important;
 }
 
-#sideNav .navbar-brand {
+#about #sideNav .navbar-brand {
   margin: 30px auto 0;
 }
 
