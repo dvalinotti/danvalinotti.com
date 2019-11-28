@@ -1,10 +1,15 @@
 // Global styling for this template
-
+.text-warning{
+  color: #ff9e07 !important;
+}
+.fab {
+  color: #ffb748 !important;
+}
 body {
   @include body-font;
   padding-top: 54px;
   color: $gray-600;
-  background-color: #171a1d;
+  background-color: $background;
 }
 @media (min-width: 992px) {
   body {
