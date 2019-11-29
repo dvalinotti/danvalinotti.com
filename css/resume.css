@@ -199,7 +199,7 @@ section.resume-section .resume-item .resume-date {
 
 #experience > .w-100 .mb-5 {
   font-family: 'Major Mono Display', monospace;
-  color: #4f4f4f;
+  color: #969696;
   font-size: 3rem;
 }
 
@@ -256,7 +256,7 @@ section.resume-section .resume-item .resume-date {
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
-  margin-left: -14rem;
+  margin-left: -12rem;
   width: 75% !important;
 }
 
@@ -282,7 +282,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 #about .w-100 div#tta-1 {
-  color: #515151;
+  color: #4f4f4f;
+  font-style: italic;
   font-family: 'Inconsolata', monospace !important;
   margin-bottom: 15px !important;
 }
@@ -652,6 +653,7 @@ section.resume-section .resume-item .resume-date {
   color: #4f4f4f;
   font-family: 'Inconsolata', monospace !important;
   font-weight: lighter;
+  font-weight: lighter;
   font-size: 1rem;
 }
 
@@ -706,7 +708,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 #interests > .w-100 p {
-  width: 66%;
+  width: 80%;
   font-family: 'Inconsolata', monospace !important;
   line-height: 18px;
   letter-spacing: 1px;
@@ -907,6 +909,31 @@ section.resume-section .resume-item .resume-date {
   font-family: 'Inconsolata', monospace !important;
 }
 
+section.resume-section {
+  max-width: 1200px;
+}
+
+nav.navbar .nav-contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav.navbar .nav-contact-info a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-family: Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  font-weight: 800;
+  letter-spacing: 0.075rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+nav.navbar .nav-contact-info a:hover {
+  color: #4f4f4f;
+}
+
 .bg-primary {
   background-color: #164e6f !important;
 }
@@ -941,5 +968,31 @@ a:hover, a:focus, a:active {
   section.resume-section {
     margin-left: 2rem !important;
     max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #about .w-100 {
+    width: 100% !important;
+  }
+  #about .w-100 .mb-0 {
+    font-size: 3rem;
+  }
+  #about .w-100 .mb-5 {
+    font-size: 1.75rem !important;
+  }
+  #projects .w-100 {
+    width: 100% !important;
+  }
+  section.resume-section {
+    margin-top: 0 !important;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+  section.resume-section .w-100 {
+    width: 100% !important;
+  }
+  section.resume-section .w-100 .mb-5 {
+    font-size: 2.5rem !important;
   }
 }
