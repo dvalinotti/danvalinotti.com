@@ -15,6 +15,12 @@
     margin-left: 2rem !important;
     max-width: 90%;
   }
+
+  nav.navbar {
+    .nav-contact-info {
+      display: none;
+    }
+  }
 }
 
 // Phone
@@ -48,6 +54,12 @@
       .mb-5 {
         font-size: 2.5rem !important;
       }
+    }
+  }
+
+  nav.navbar {
+    .nav-contact-info {
+      display: none;
     }
   }
 }

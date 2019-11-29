@@ -969,6 +969,9 @@ a:hover, a:focus, a:active {
     margin-left: 2rem !important;
     max-width: 90%;
   }
+  nav.navbar .nav-contact-info {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -994,5 +997,8 @@ a:hover, a:focus, a:active {
   }
   section.resume-section .w-100 .mb-5 {
     font-size: 2.5rem !important;
+  }
+  nav.navbar .nav-contact-info {
+    display: none;
   }
 }
