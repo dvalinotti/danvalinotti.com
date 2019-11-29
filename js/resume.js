@@ -2,7 +2,7 @@
 var textTypingAnimation = new TextTypingAnimation(document.getElementById("tta-1"));
 textTypingAnimation
   .go({
-    text: 'Full Stack Software Engineer',
+    text: 'Software Engineer',
     delay: 100,
     duration: 1500
   });
@@ -18,7 +18,7 @@ var textTypingAnimation3 = new TextTypingAnimation(document.getElementById("tta-
 setTimeout(function() {
   textTypingAnimation3
     .go({
-      text: 'I am a Full-Stack Software Engineer with a focus on front-end development and a passion for UX/UI Design.' +
+      text: 'I am a Full-Stack Software Engineer with a focus on front-end development and a passion for UX/UI Design. ' +
         'Adaptable, design oriented, and user-focused applications are my specialty, along with strong architecture and ' +
         'solutions skills.',
       duration: 3000
@@ -63,4 +63,3 @@ setTimeout(function() {
   });
 
 })(jQuery); // End of use strict
-

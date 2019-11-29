@@ -25,11 +25,11 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
-$background:    rgb(250, 250, 250);
+$background:    #171a1d;
 $primary:       rgb(22, 78, 111);
-$secondary:     #4f4f4f;
-$tertiary:      #969696;
-$subheading:    #515151;
+$secondary:     rgb(214, 214, 214);
+$tertiary:      rgb(175, 175, 175);
+$subheading:    rgb(150, 150, 150);
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -41,10 +41,3 @@ $dark:          $gray-800 !default;
 // Page Variables
 
 $sidebar-base-width: 17rem;
-
-@media (prefers-color-scheme: light) {
-  $background:    #171a1d;
-  $secondary:     rgb(214, 214, 214);
-  $tertiary:      rgb(175, 175, 175);
-  $subheading:    rgb(150, 150, 150);
-}
