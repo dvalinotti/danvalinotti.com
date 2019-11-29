@@ -481,3 +481,20 @@ a:hover, a:focus, a:active {
 .mb-0 {
   color: #d6d6d6;
 }
+
+@media screen and (max-width: 900px) {
+  #about {
+    padding-top: 2rem !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  #about .w-100 {
+    margin-top: 0 !important;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+  section.resume-section {
+    margin-left: 2rem !important;
+    max-width: 90%;
+  }
+}
