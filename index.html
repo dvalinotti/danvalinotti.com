@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Major+Mono+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8db316f1e4.js" crossorigin="anonymous"></script>
 
   <!-- Custom styles for this template -->
   <link id="dark" href="css/darkResume.min.css" rel="stylesheet" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: dark)">
@@ -42,19 +42,22 @@
         <a class="nav-link js-scroll-trigger" href=" #about">About</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href=" #skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href=" #projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href=" #interests">Interests</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href=" #experience">Experience</a>
       </li>
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href=" #education">Education</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href=" #skills">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href=" #interests">Interests</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href=" #projects">Projects</a>
+        <a class="nav-link js-scroll-trigger" href="/blog" target="_blank">Blog</a>
       </li>
     </ul>
   </div>
@@ -81,11 +84,12 @@
       </div>
       <div class="toc-container">
         <p id="tta-3a"></p>
+        <a id="nav-link-skills" class="nav-link-skills js-scroll-trigger" href="#skills"></a>
+        <a id="nav-link-projects" class="nav-link-projects js-scroll-trigger" href="#projects"></a>
+        <a id="nav-link-interests" class="nav-link-ints js-scroll-trigger" href="#interests"></a>
         <a id="nav-link-experience" class="nav-link-exp js-scroll-trigger" href="#experience"></a>
         <a id="nav-link-education" class="nav-link-edu js-scroll-trigger" href="#education"></a>
-        <a id="nav-link-skills" class="nav-link-skills js-scroll-trigger" href="#skills"></a>
-        <a id="nav-link-interests" class="nav-link-ints js-scroll-trigger" href="#interests"></a>
-        <a id="nav-link-projects" class="nav-link-projects js-scroll-trigger" href="#projects"></a>
+        <a id="nav-link-blog" class="nav-link-blog js-scroll-trigger" href="/blog" target="_blank"></a>
       </div>
       <div class="social-icons">
         <a target="_blank" href="mailto:dvalinotti@icloud.com">
@@ -106,10 +110,228 @@
 
   <hr class="m-0">
 
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+    <div class="w-100">
+      <h2 class="mb-5">Skills</h2>
+
+      <p class="subheading">Programming Languages &amp; Tools</p>
+      <ul class="list-inline dev-icons">
+        <li class="list-inline-item">
+          <i class="fab fa-react" data-toggle="tooltip" data-placement="bottom" title="React.js"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-node-js" data-toggle="tooltip" data-placement="bottom" title="Node.js"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-css3-alt" data-toggle="tooltip" data-placement="bottom" title="CSS"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-sass" data-toggle="tooltip" data-placement="bottom" title="Sass"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-less" data-toggle="tooltip" data-placement="bottom" title="Less"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-html5" data-toggle="tooltip" data-placement="bottom" title="HTML5"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-aws" data-toggle="tooltip" data-placement="bottom" title="AWS"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-git-square" data-toggle="tooltip" data-placement="bottom" title="Git"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-docker" data-toggle="tooltip" data-placement="bottom" title="Docker"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-npm" data-toggle="tooltip" data-placement="bottom" title="NPM"></i>
+        </li>
+        <li class="list-inline-item">
+          <i class="fab fa-shopify" data-toggle="tooltip" data-placement="bottom" title="Shopify"></i>
+        </li>
+        <li class="list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Wordpress">
+          <i class="fab fa-wordpress"></i>
+        </li>
+      </ul>
+
+      <div class="subheading mb-3">Workflow</div>
+      <ul class="fa-ul mb-0">
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Mobile-First, Responsive Design
+        </li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Cross Browser Testing &amp; Debugging
+        </li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Cross Functional Teams
+        </li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Agile Development &amp; Scrum
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+    <div class="w-100">
+      <h2 class="mb-5">Projects</h2>
+      <ul class="fa-ul mb-0">
+        <li>
+          <i class="fa-li fab fa-shopify text-warning"></i>
+          <p class="project-title">Next.JS Shopify Refactor</p>
+          <div class="project-content">
+            <p class="project-description">
+              >  Rebuilding an existing Shopify webstore using React and the Next.js framework
+              which enables Server-side Rendered web pages. The intent is to create a modern development
+              stack and improve performance, particularly on mobile devices.
+            </p>
+          </div>
+        </li>
+        <li>
+          <i class="fa-li fas fa-blog text-warning"></i>
+          <p class="project-title">My Blog</p>
+          <div class="project-content">
+            <p class="project-description">
+              >  Personal technology/development blog built with React + Gatsby.js
+              for static site generation.
+            </p>
+            <div class="link-btn-container">
+              <a href="https://github.com/dvalinotti/gatsby-blog" class="project-link" target="_blank">
+                <button class="link-btn" type="button">GitHub</button>
+              </a>
+              <a href="/blog" class="project-link" target="_blank">
+                <button class="link-btn" type="button">Live Site</button>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <i class="fa-li fas fa-laptop-code text-warning"></i>
+          <p class="project-title">Rust Sandbox</p>
+          <div class="project-content">
+            <p class="project-description">
+              >  React/Next.js web application that allows users to write and execute formatted
+              Rust code in their web browser.
+            </p>
+            <div class="link-btn-container">
+              <a href="https://github.com/dvalinotti/rust-sandbox" class="project-link" target="_blank">
+                <button class="link-btn" type="button">GitHub</button>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <i class="fa-li fa fa-mobile-alt text-warning"></i>
+          <p class="project-title">Hue Morse Messenger (iOS / Android)</p>
+          <div class="project-content">
+            <p class="project-description">
+              >  Mobile application built using React Native that allows the utilize
+              their Philips Hue smart lightbulbs to send Morse code messages to
+              different rooms/lights in their house.
+            </p>
+            <div class="link-btn-container">
+              <a href="https://github.com/dvalinotti/Hue-Morse-Messenger" class="project-link" target="_blank">
+                <button class="link-btn" type="button">GitHub</button>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <i class="fa-li fa fa-desktop text-warning"></i>
+          <p class="project-title">Hue Morse Messenger Server</p>
+          <div class="project-content">
+            <p class="project-description">
+              >  NodeJS/GraphQL backend application for the mobile Hue Morse Messenger
+              app used for getting room/light information and changing the light state.
+            </p>
+            <div class="link-btn-container">
+              <a href="https://github.com/dvalinotti/Hue-Morse-Messenger-Desktop" class="project-link" target="_blank">
+                <button class="link-btn" type="button">GitHub</button>
+              </a>
+            </div>
+          </div>
+        </li>
+        </li>
+        <li>
+          <i class="fa-li fa fa-prescription-bottle text-warning"></i>
+          <p class="project-title">RxWave</p>
+          <div class="project-content">
+            <p class="project-description">
+              >  Web application utilized in assisting our client in comparing their
+              prescription drug prices with competing websites, with plans to use
+              AI/ML for predictive pricing models.
+            </p>
+          </div>
+        </li>
+        <li>
+          <i class="fa-li fa fa-share-alt-square text-warning"></i>
+          <p class="project-title">Reddit Social Media Toolkit</p>
+          <div class="project-content">
+            <p class="project-description">
+              >  Full-stack software-as-a-service that offers users a full suite of
+              marketing tools to advertise and analyze public reception of their
+              product/service using Reddit’s Python API.
+            </p>
+            <div class="link-btn-container">
+              <a href="https://github.com/dvalinotti/Reddit-Social-Media-Toolkit" class="project-link" target="_blank">
+                <button class="link-btn" type="button">GitHub</button>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="m-0">
+  
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <div class="w-100">
+      <h2 class="mb-5">Interests</h2>
+      <p>
+        Aside from my professional work, I also like to work on my own personal side-projects. My most recent project
+        is my <a href="/blog" target="_blank">Blog</a>, where I write about my experience as a developer and design tutorials to teach
+        new skills to my readers. I also developed <i>Hue Morse Messenger</i>, a mobile app that allows users to leverage 
+        their Philips Hue smart lights to send morse code messages to each other. I also like to contribute to open-source
+        projects, most recently ones that promote community involvement or assist in COVID-19 response.
+      </p>
+      <p>
+        When I'm not programming, I like to write, play video games (some competitively), do graphic design or play guitar.
+        My graphic design work is mostly focused in User Experience design, which I study on my own time, or editing
+        photographs.
+      </p>
+    </div>
+  </section>
+
+  <hr class="m-0">
+
   <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
     <div class="w-100">
       <h2 class="mb-5">Experience</h2>
+      <!-- Colgate -->
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+          <p class="mb-0">Full Stack Developer</p>
+          <div class="subheading mb-3">Colgate-Palmolive Company</div>
+          <p>
+            Leading development of an initiative to refactor an existing Shopify E-Commerce webstore to
+            a modern React / Next.js Server-side Rendered web application. Also supporting the existing
+            Shopify site built with Liquid templates to create responsive and performant pages based on 
+            designs provided from the business-side of the organization.
+          </p>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary-1">January 2020 - Present</span>
+        </div>
+      </div>
 
+      <!-- GalaxE Solutions -->
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
           <p class="mb-0">Software Engineer</p>
@@ -119,10 +341,11 @@
             browser.</p>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary-1">June 2019 - Present</span>
+          <span class="text-primary-1">June 2019 - December 2019</span>
         </div>
       </div>
 
+      <!-- Aardvark Brigade -->
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
           <p class="mb-0">Web Development Intern</p>
@@ -132,7 +355,7 @@
             Docker, Vagrant, Linode and AWS.</p>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary-1">December 2011 - March 2013</span>
+          <span class="text-primary-1">September 2018 - May 2019</span>
         </div>
       </div>
     </div>
@@ -174,163 +397,6 @@
   </section>
 
   <hr class="m-0">
-
-  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-    <div class="w-100">
-      <h2 class="mb-5">Skills</h2>
-
-      <p class="subheading">Programming Languages &amp; Tools</p>
-      <ul class="list-inline dev-icons">
-        <li class="list-inline-item">
-          <i class="fab fa-js-square"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-node-js"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-react"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-css3-alt"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-sass"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-less"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-html5"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-angular"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-wordpress"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-npm"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-gulp"></i>
-        </li>
-        <li class="list-inline-item">
-          <i class="fab fa-grunt"></i>
-        </li>
-      </ul>
-
-      <div class="subheading mb-3">Workflow</div>
-      <ul class="fa-ul mb-0">
-        <li>
-          <i class="fa-li fa fa-check"></i>
-          Mobile-First, Responsive Design
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>
-          Cross Browser Testing &amp; Debugging
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>
-          Cross Functional Teams
-        </li>
-        <li>
-          <i class="fa-li fa fa-check"></i>
-          Agile Development &amp; Scrum
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <hr class="m-0">
-
-  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-    <div class="w-100">
-      <h2 class="mb-5">Interests</h2>
-      <p>
-        Aside from my professional work, I also like to work on my own personal side-projects. My most recent work
-        is <i>Hue Morse Messenger</i>, a mobile app that allows users to leverage their Philips Hue smart lights to
-        send morse code messages to each other.
-      </p>
-      <p>
-        When I'm not programming, I like playing video games (some competitively), do graphic design or play guitar.
-        My graphic design work is mostly focused in User Experience design, which I study on my own time, or editing
-        photographs.
-      </p>
-    </div>
-  </section>
-
-  <hr class="m-0">
-
-  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-    <div class="w-100">
-      <h2 class="mb-5">Projects</h2>
-      <ul class="fa-ul mb-0">
-        <li>
-          <i class="fa-li fa fa-prescription-bottle text-warning"></i>
-          <p class="project-title">RxWave</p>
-          <p class="project-description">
-            >  Web application utilized in assisting our client in comparing their
-            prescription drug prices with competing websites, with plans to use
-            AI/ML for predictive pricing models.
-          </p>
-        </li>
-        <li>
-          <i class="fa-li fa fa-mobile-alt text-warning"></i>
-          <p class="project-title">Hue Morse Messenger (Ios / Android)</p>
-          <p class="project-description">
-            >  Mobile application built using React Native that allows the utilize
-            their Philips Hue smart lightbulbs to send Morse code messages to
-            different rooms/lights in their house.
-          </p>
-        </li>
-        <li>
-          <i class="fa-li fa fa-desktop text-warning"></i>
-          <p class="project-title">Hue Morse Messenger Server</p>
-          <p class="project-description">
-            >  NodeJS/GraphQL backend application for the mobile Hue Morse Messenger
-            app used for getting room/light information and changing the light state.
-          </p>
-        </li>
-        <li>
-          <i class="fa-li fa fa-share-alt-square text-warning"></i>
-          <p class="project-title">Reddit Social Media Toolkit</p>
-          <p class="project-description">
-            >  Full-stack software-as-a-service that offers users a full suite of
-            marketing tools to advertise and analyze public reception of their
-            product/service using Reddit’s Python API.
-          </p>
-        </li>
-        <li>
-          <i class="fa-li fa fa-palette text-warning"></i>
-          <p class="project-title">Words-in-Color</p>
-          <p class="project-description">
-            >  Simple React web application that takes a user's text input and
-            generates a small batch of colors using an algorithm I wrote
-            specifically for this task.
-          </p>
-        </li>
-        <li>
-          <i class="fa-li fa fa-file-medical text-warning"></i>
-          <p class="project-title">Referral Voodoo Landing Page</p>
-          <p class="project-description">
-            >  Built a home page for Referral Voodoo, a startup building an app
-            aiming to give doctors the ability to have patients refer them to
-            friends or family.
-          </p>
-        </li>
-        <li>
-          <i class="fa-li fa fa-gamepad text-warning"></i>
-          <p class="project-title">Hue Simon Game <i>(WIP)</i></p>
-          <p class="project-description">
-            >  Clone of the classic "Simon" game, where you must repeat a
-            pattern of lights. Instead of a game pad, this will use the Philips
-            Hue lights in a user's home.
-          </p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
 </div>
 
 <!-- Bootstrap core JavaScript -->
@@ -345,9 +411,7 @@
 
 <!-- Text Typing Animation -->
 <script src="https://unpkg.com/text-typing-animation"></script>
-<script src="js/resume.js">
-
-</script>
+<script src="js/resume.js"></script>
 </body>
 
 </html>

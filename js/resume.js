@@ -1,4 +1,7 @@
 
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 var textTypingAnimation = new TextTypingAnimation(document.getElementById("tta-1"));
 textTypingAnimation
   .go({
@@ -25,7 +28,7 @@ setTimeout(function() {
     });
 }, 2000);
 setTimeout(function() {
-  var toc = ['experience', 'education', 'skills', 'interests', 'projects'];
+  var toc = ['skills', 'projects', 'interests', 'experience', 'education', 'blog'];
   for (var i = 0; i < toc.length; i++) {
     var textTypingAnimation5 = new TextTypingAnimation(document.getElementById("nav-link-" + toc[i]));
     textTypingAnimation5

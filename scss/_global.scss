@@ -3,7 +3,8 @@
   color: #ff9e07 !important;
 }
 .fab {
-  color: #ffb748 !important;
+  color: #ffb748;
+  transition: all 0.25s ease-in-out;
 }
 body {
   @include body-font;
@@ -78,9 +79,27 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
-  .list-inline-item i {
-    &:hover {
-      color: $primary;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33% 33% 33%;
+  height: min-content;
+  width: 100%;
+  max-width: 600px;
+  
+  @media (min-width: 768px) {
+    grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .list-inline-item {
+    text-align: center;
+    i {
+      transition: all 0.2s ease-in-out;
+      transform: scale3d(1,1,1);
+      &:hover {
+        transform: scale3d(1.1,1.1,1.1);
+        color: $primary;
+      }
     }
   }
 }

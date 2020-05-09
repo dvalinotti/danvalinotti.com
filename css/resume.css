@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
@@ -9,7 +9,8 @@
 }
 
 .fab {
-  color: #ffb748 !important;
+  color: #ffb748;
+  transition: all 0.25s ease-in-out;
 }
 
 body {
@@ -86,9 +87,34 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33% 33% 33%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .dev-icons {
+    grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+    grid-template-rows: 50% 50%;
+  }
+}
+
+.dev-icons .list-inline-item {
+  text-align: center;
+}
+
+.dev-icons .list-inline-item i {
+  transition: all 0.2s ease-in-out;
+  transform: scale3d(1, 1, 1);
 }
 
 .dev-icons .list-inline-item i:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
   color: #164e6f;
 }
 
@@ -685,9 +711,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 #interests {
-  width: 90% !important;
+  width: 90%;
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  #interests {
+    width: 80%;
+  }
 }
 
 #interests ul.fa-ul {
@@ -708,7 +740,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 #interests > .w-100 p {
-  width: 80%;
+  width: 100%;
   font-family: 'Inconsolata', monospace !important;
   line-height: 18px;
   letter-spacing: 1px;
@@ -804,6 +836,9 @@ section.resume-section .resume-item .resume-date {
   font-size: 1rem;
   padding-left: 10px;
   padding-bottom: 10px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 
 #projects ul.fa-ul li i {
@@ -811,7 +846,6 @@ section.resume-section .resume-item .resume-date {
 }
 
 #projects ul.fa-ul li .project-title {
-  font-family: 'Major Mono Display', monospace;
   font-size: 1.25rem;
   color: #4f4f4f;
 }
@@ -822,16 +856,97 @@ section.resume-section .resume-item .resume-date {
   font-size: 1.125rem;
 }
 
-#projects ul.fa-ul li .project-description {
+#projects ul.fa-ul li .project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #projects ul.fa-ul li .project-content {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 100%;
+  }
+}
+
+#projects ul.fa-ul li .project-content .project-description {
   font-family: 'Inconsolata', monospace;
   font-size: 0.9rem;
   color: #969696;
+  margin-bottom: auto;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  #projects ul.fa-ul li .project-content .project-description {
+    padding-bottom: 0;
+  }
+}
+
+#projects ul.fa-ul li .project-content .link-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#projects ul.fa-ul li .project-content .link-btn-container a {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+#projects ul.fa-ul li .project-content .link-btn-container a .link-btn {
+  padding: 5px 20px;
+  color: #4f4f4f;
+  border: 1px solid #4f4f4f;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  transform: scale3d(1, 1, 1);
+}
+
+#projects ul.fa-ul li .project-content .link-btn-container a .link-btn:hover {
+  background-color: #4f4f4f;
+  color: #171a1e;
+  border-color: transparent;
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 #projects > .w-100 {
   margin-top: 2rem;
   margin-right: auto;
-  width: 66% !important;
+}
+
+@media (min-width: 768px) {
+  #projects > .w-100 {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  #projects > .w-100 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  #projects > .w-100 {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  #projects > .w-100 {
+    width: 66% !important;
+  }
 }
 
 #projects > .w-100 .mb-0 {
